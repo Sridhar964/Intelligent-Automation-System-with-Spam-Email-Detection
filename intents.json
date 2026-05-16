@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning"],
+      "responses": ["Hello!", "Hi there!", "Hey! How can I help you?"]
+    },
+    {
+      "tag": "ai",
+      "patterns": ["What is AI?", "Define artificial intelligence"],
+      "responses": ["AI stands for Artificial Intelligence, enabling machines to mimic human intelligence."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["How is the weather?", "Weather today"],
+      "responses": ["I cannot fetch real-time weather, but you can use weather APIs like OpenWeather."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye"],
+      "responses": ["Goodbye!", "See you later!"]
+    }
+  ]
+}
